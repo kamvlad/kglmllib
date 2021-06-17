@@ -10,9 +10,9 @@ class ConstantRegressor:
     def predict(self, X):
         return np.ones(X.shape[0]) * self.mean
 
-    def save(self, path: pathlib.Path, name=None):
+    def save(self, path: pathlib.Path):
         pass
 
     @staticmethod
-    def load(path: pathlib.Path, name=None):
+    def load(path: pathlib.Path):
         pass

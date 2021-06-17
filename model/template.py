@@ -14,6 +14,7 @@ class Regressor:
     def save(self, path: pathlib.Path, name=None):
         pass
 
-    @staticmethod
-    def load(path: pathlib.Path, name=None):
-        pass
+
+
+def load(path: pathlib.Path, name=None):
+    pass
